@@ -1,0 +1,23 @@
+	O Markdown é uma linguagem de marcação criada por John Gruber, com colaborações de Aaron Swartz com o intuito de viabilizar a formatação de documentos HTML de forma simples. Utilizando Markdown, é possível formatar o texto utilizando marcadores simples, como o asterisco. Gruber define o Markdown como uma ferramenta de conversão de texto para HTML.
+
+Sintaxe:
+	O Markdown possui uma sintaxe simples em comparação com o HTML, onde se faz necessário o uso de tags, como <h1></h1>, que tem como equivalente o marcador #. Estes são alguns exemplos de marcadores no Markdown e seus equivalentes no HTML:
+
+# Título 1 --> <h1>Título 1</h1>
+## Título 2 --> <h2>Título 2</h2>
+*Itálico* --> <em>Itálico</em>
+**Negrito** --> <strong>Negrito</strong>
+
+Lista não ordenada:
+* Item 1
+* Item 2
+* Item 3
+
+Lista ordenada:
+1. Item 1
+2. Item 2
+3. Item 3
+
+Fontes:
+https://pt.wikipedia.org/wiki/Markdown
+https://tecnoblog.net/responde/o-que-e-markdown/
