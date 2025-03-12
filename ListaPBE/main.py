@@ -28,3 +28,12 @@ print(f"a / b = {a / b}")
 '''
 #03
 
+# Declarando as variáveis preco e desconto
+preco = 50
+desconto = 10
+
+# Calculando o valor final
+preco = preco - desconto
+
+# Exibindo o valor final
+print(preco)
