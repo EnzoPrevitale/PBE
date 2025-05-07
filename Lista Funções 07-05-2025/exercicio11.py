@@ -7,4 +7,6 @@ def verificar_palindromo(texto):
     else:
         return False
 
+print(verificar_palindromo("Ana Ana"))
+print(verificar_palindromo("1DS-TB"))
 print(verificar_palindromo("Subi no Onibus"))
