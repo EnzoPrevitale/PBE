@@ -1,3 +1,4 @@
+from relatorioBiblioteca import RelatorioBiblioteca
 from itemBiblioteca import ItemBiblioteca
 from colecaoLivros import ColecaoLivros
 from revista import Revista
@@ -17,13 +18,12 @@ class Main:
         self.colecao1.adicionar_livro(self.livro2)
         self.colecao1.adicionar_livro(self.livro3)
 
-        print(self.colecao1.obter_info())
-        print(self.revista1.obter_info())
-
         biblioteca = Biblioteca()
         biblioteca.adicionar_item(self.colecao1)
-        biblioteca.adicionar_item(self.livro2)
+        biblioteca.adicionar_item(self.livro1)
 
-        print(biblioteca.contar_itens_emprestados())
+        relatorio = RelatorioBiblioteca(biblioteca)
+
+        print(relatorio.gerar_relatorio_disponibilidade())
 
 main = Main()

@@ -13,13 +13,11 @@ class ColecaoLivros(ItemBiblioteca):
         for i in self.itens:
             if not i.disponivel:
                 self.disponivel = False
-                print("Coleção indisponível!")
                 return False
-        print("Coleção disponível!")
         return True
 
     def obter_info(self):
-        info = ""
+        info = f"Coleção | Título: {self.titulo}\n, Ano: {self.ano_publicacao}, Disponível: {"Sim" if self.verificar_disponibilidade_colecao() else "Não"}:\n"
         for i in self.itens:
-            info += f"{i.obter_info()}\n"
+            info += f"    {i.obter_info()}\n"
         return info
